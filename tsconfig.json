@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"target": "es5", // JS Specification version
+		"module": "commonjs",
+		"sourceMap": true,
+		"types" : [ "jasmine"],
+		"typeRoots": [
+			"/node_modules/@types"
+		]
+	}
+}

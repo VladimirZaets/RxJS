@@ -1,0 +1,23 @@
+{
+  "name": "RxjsApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --watch --inline",
+    "postinstall": "typings install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.43",
+    "ts-loader": "^1.3.3",
+    "typescript": "^2.1.4",
+    "typing": "^0.1.9",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
